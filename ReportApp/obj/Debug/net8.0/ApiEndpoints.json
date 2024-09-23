@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "ReportApp.Controllers.ReportController",
+    "Method": "Info",
+    "RelativePath": "report/info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportApp.Controllers.ReportController",
+    "Method": "UserStatistics",
+    "RelativePath": "report/user_statistics",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Domain.Dto.UserStatisticRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
